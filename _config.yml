@@ -1,51 +1,25 @@
-# Extensions
-## Plugins: http://hexo.io/plugins/
-## Themes: http://hexo.io/themes/
-theme: clean-blog
+# Site settings
+title: Clean Blog
+header-img: img/home-bg.jpg
+email: your-email@yourdomain.com
+copyright_name: Your/Project/Corporate Name
+description: "Write your site description here. It will be used as your sites meta description as well!"
+baseurl: "/startbootstrap-clean-blog-jekyll"
+url: "http://yourdomain.com"
+twitter_username: SBootstrap
+github_username:  davidtmiller
+facebook_username:  StartBootstrap
+email_username:  your-email@yourdomain.com
 
-# Header
-menu:
-  Home: /
-  Archives: /archives
-  Tags: /tags
-  Categories: /categories
-  Github:
-    url: https://github.com/tauitdnmd/tauitdnmd.github.io
-    icon: github
+# Google Analytics
+# To enable google analytics, uncomment below line with a valid Google Tracking ID
+# google_tracking_id:
 
-# Title on top left of menu. Leave empty to use main blog title
-menu_title: 
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
-# URL of the Home page image
-index_cover: http://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/img/home-bg.jpg
-
-# Default post title
-default_post_title: Untitled
-
-# Comments. Choose one by filling up the information
-comments:
-  # Disqus comments
-  disqus_shortname:
-  # Facebook comments
-  facebook:
-    appid:
-    comment_count: 5
-    comment_colorscheme: light
-
-# Google Analytics Tracking ID
-google_analytics:
-
-# Addthis ID
-addthis:
-
-# set your own favicon
-favicon:
-
-# Social Accounts
-twitter_url:
-twitter_handle:
-facebook_url:
-github_url: https://github.com/tauitdnmd/tauitdnmd.github.io
-gitlab_url:
-linkedin_url:
-mailto: tauit.dnmd@gmail.com
+gems: [jekyll-paginate, jekyll-feed]
